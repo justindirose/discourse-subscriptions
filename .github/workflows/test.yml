@@ -1,6 +1,6 @@
 name: Linting
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build:
@@ -41,3 +41,4 @@ jobs:
       run: bundle exec rubocop .
 
 
+# test add more stuff
